@@ -1,1 +1,39 @@
-﻿
+﻿.column {
+    width: 75%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.column:nth-child(1) {
+    margin-left: 10px;
+    color: green;
+    margin-right: 5px;
+}
+
+.column:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.7)), url("/assets/img/download.jpeg");
+    background-size: cover;
+    z-index: -1;
+}
+
+.column:nth-child(2) {
+    background-color: #A9D6E5;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}

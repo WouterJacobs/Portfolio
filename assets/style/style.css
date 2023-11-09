@@ -1,11 +1,12 @@
 ﻿body{
-    background-color: darkgray;
+    background-color: black;
     margin: 0;
+    color: white;
 }
 #header{
     position: sticky;
     width: 100%;
-    background-color: #5f9ea0;
+    background-color: #008170;
     font-size: 25px;
 
     top: 0;
@@ -17,6 +18,7 @@
     padding-right: 20px;
     border-right: black solid;
     height: 42px;
+    color: black;
 }
 #header li {
     position: relative;

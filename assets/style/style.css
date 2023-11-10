@@ -53,3 +53,14 @@
 #header li:hover {
     background-color: #398285;
 }
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008170;
+    color: white;
+    padding-top: 1px;
+    height: 40px;
+    margin-top: 150px;
+    
+}
